@@ -1,0 +1,33 @@
+header, footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+@media (max-width: 768px) and (min-width: 481px) {
+  header, footer {
+    background:black;
+  }
+  .content {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  header, footer {
+    background:black;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
